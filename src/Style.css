@@ -124,6 +124,9 @@
     width: 60%;
   }
   */
+  .weather-app {
+    width: 100%;
+  }
 .days-display{
   height: 100%;
 }
@@ -138,6 +141,7 @@
   .weather-app {
     flex-direction: column;
     width: 100%;
+    align-items: none;
   }
   .input-field {
     width: 200px;
@@ -150,9 +154,9 @@
   height: 0;
 } */
 }
-@media screen and (min-width: 429px) and (min-width: 714px) {
+/* @media screen and (min-width: 429px) and (min-width: 714px) {
   .weather-app {
     width: 100%;
     flex-direction: column;
   }
-}
+} */
